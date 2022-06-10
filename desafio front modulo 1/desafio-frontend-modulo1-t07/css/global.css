@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    background-color: #33323D;
+    padding: 14px 149px;
+    margin-top: 150px;
+}
+
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 165px 0 165px;
+}
+
+.header-menu {
+    width: 278px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 418px;
+}
+
+.links-footer {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Fonts */
+
+.public-sans {
+    font-family: 'Public Sans';
+    font-weight: 400;
+}
+
+.ibarra {
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+}
+
+/* Color */
+
+.grayish {
+    color: #33323D;
+}
+
+.slightly {
+    color: #5FB4A2;
+}
+
+/* Buton */
+
+.btn-page {
+    all: unset;
+    min-width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    padding: 17px 28px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #33323D;
+}
+
+/* Buton style*/
+
+.btn-page:hover {
+    background-color: rgba(121, 120, 120, 0.073);
+    cursor: pointer;
+}
+
+/* EM TESTE */
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.contato-title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    width: 367px;
+}
